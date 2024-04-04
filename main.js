@@ -36,13 +36,13 @@ while (loop) {
     let amount = currency.amount;
     if (input === "PAKISTANI RUPEES") {
         if (output === "US DOLLAR") {
-            console.log(`Your ${amount} Pakistani rupees After Convert is ${amount / 277.9}`);
+            console.log(`Your ${amount} Pakistani rupees After Convert is ${amount / 277.90}`);
         }
         else if (output === "JAPANESE YEN") {
-            console.log(`Your ${amount} Pakistani rupees After Convert is ${amount / 1.84}`);
+            console.log(`Your ${amount} Pakistani rupees After Convert is ${amount * 0.54}`);
         }
         else if (output === "CHINESE YUAN") {
-            console.log(`Your ${amount} Pakistani rupees After Convert is ${amount / 38.41}`);
+            console.log(`Your ${amount} Pakistani rupees After Convert is ${amount * 0.026}`);
         }
         else if (input === "PAKISTANI RUPPES") {
             console.log("Invalid currency");
@@ -53,10 +53,10 @@ while (loop) {
             console.log(`Your ${amount} US Dollar after Convert is ${amount * 277.9}`);
         }
         else if (output === "JAPANESE YEN") {
-            console.log(`Your ${amount} US Dollar after Convert is ${amount * 1.84}`);
+            console.log(`Your ${amount} US Dollar after Convert is ${amount * 151.32}`);
         }
         else if (output === "CHINESE YUAN") {
-            console.log(`Your ${amount} US Dollar after Convert is ${amount * 38.41}`);
+            console.log(`Your ${amount} US Dollar after Convert is ${amount * 7.23}`);
         }
         else if (input === "US DOLLAR") {
             console.log("Invalid currency");
@@ -67,10 +67,10 @@ while (loop) {
             console.log(`Your ${amount} Japanese yen After Convert is ${amount * 1.84}`);
         }
         else if (output === "US DOLLAR") {
-            console.log(`Your ${amount} Japanese yen After Convert is ${amount / 277.9}`);
+            console.log(`Your ${amount} Japanese yen After Convert is ${amount * 0.0066}`);
         }
         else if (output === "CHINESE YUAN") {
-            console.log(`Your ${amount} Japanese yen After Convert is ${amount * 38.41}`);
+            console.log(`Your ${amount} Japanese yen After Convert is ${amount * 0.048}`);
         }
         else if (input === "JAPANESE YEN") {
             console.log("Invalid currency");
@@ -81,10 +81,10 @@ while (loop) {
             console.log(`Your ${amount} Chinese yuan After Convert is ${amount * 38.41}`);
         }
         else if (output === "US DOLLAR") {
-            console.log(`Your ${amount} Chinese yuan After Convert is ${amount / 277.9}`);
+            console.log(`Your ${amount} Chinese yuan After Convert is ${amount * 0.14}`);
         }
         else if (output === "JAPANESE YEN") {
-            console.log(`Your ${amount} Chinese yuan After Convert is ${amount * 1.84}`);
+            console.log(`Your ${amount} Chinese yuan After Convert is ${amount * 20.91}`);
         }
         else if (input === "CHINESE YUAN") {
             console.log("Invalid currency");
@@ -100,4 +100,4 @@ while (loop) {
         loop = false;
         console.log("Thankyou for using my app!!");
     }
-}
+};
