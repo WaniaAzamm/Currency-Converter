@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.17"
+  },
+  "name": "waniaazam-currencyconvertor",
+  "version": "1.0.0",
+  "description": "Currency convertor",
+  "main": "main.js",
+  "bin": {
+    "waniaazam-currency-convertor": "main.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wania Azam",
+  "license": "ISC"
+}
